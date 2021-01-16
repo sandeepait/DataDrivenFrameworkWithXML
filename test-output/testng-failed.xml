@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HomeKitchenTest(failed)">
+    <parameter name="product" value="Curtains"/>
+    <parameter name="productCategory" value="Home &amp; Kitchen"/>
+    <classes>
+      <class name="tests.CurtainsTest">
+        <methods>
+          <include name="curtainTest" invocation-numbers="0"/>
+          <include name="launchURL"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CurtainsTest -->
+    </classes>
+  </test> <!-- HomeKitchenTest(failed) -->
+  <test thread-count="5" name="EssentialsTest(failed)">
+    <parameter name="product" value="Coffee &amp; Tea"/>
+    <parameter name="productCategory" value="Essentials"/>
+    <classes>
+      <class name="tests.CurtainsTest">
+        <methods>
+          <include name="curtainTest" invocation-numbers="0"/>
+          <include name="launchURL"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CurtainsTest -->
+    </classes>
+  </test> <!-- EssentialsTest(failed) -->
+  <test thread-count="5" name="MobileAndMoreTest(failed)">
+    <parameter name="product" value="Cables"/>
+    <parameter name="productCategory" value="Mobiles &amp; More"/>
+    <classes>
+      <class name="tests.CurtainsTest">
+        <methods>
+          <include name="curtainTest" invocation-numbers="0"/>
+          <include name="launchURL"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CurtainsTest -->
+    </classes>
+  </test> <!-- MobileAndMoreTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
